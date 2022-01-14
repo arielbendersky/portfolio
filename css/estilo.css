@@ -1,0 +1,418 @@
+*{padding: 0;
+margin: 0;}
+/*header*/
+button.btn.btn-outline-success {
+    color: white;
+    background-color: blue;
+
+    
+  }
+
+.nav-link:hover{
+    color: white;
+    transition: 1s;
+}
+  
+  button.btn.btn-outline-success:hover {
+    border: 1px solid blue;
+    color: blue;
+    background-color:white;
+  }
+  
+  .form-control {
+    border: 2px solid blue;
+    background: transparent;
+  }
+
+  .navbar-toggler {
+    color: white;
+  }
+  
+  .navbar-brand{
+    color: blue;
+    font-family: cursive;
+    margin-right: 100px;
+  }
+  .logoblanco{color: white;}
+
+/*fin header*/
+
+/*main*/
+.jumbotron{background-color: #222222;
+background-size: cover;
+background-position: center;
+height:auto;
+}
+
+.card-img-top{    
+    animation-name:blaconynegro;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    filter: grayscale(50%);
+    cursor: pointer;
+}
+
+.card-img-top:hover{
+    filter: none;
+    
+}
+
+
+
+.parrafoari{
+    color: whitesmoke;
+    animation-name:cambiodetransp;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    font-size: 15px;
+}
+  
+  @keyframes cambiodetransp {
+    0%{color: transparent;}
+    100% {color: whitesmoke ;
+      
+    }
+}
+
+.descripari{
+    color: white;
+    font-size: 20px;
+    animation-name:cambiodetamaño2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+  
+  @keyframes cambiodetamaño2 {
+    0%{
+        font-size: 0px;}
+    100% {font-size: 20px ;
+      }
+}
+
+
+
+.titulodiv1{
+    color: blue;
+    animation-name:cambiodecolor;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+  
+  @keyframes cambiodecolor {
+    0%{
+        color: blue;}
+    50%{
+        color: white;
+    }
+    100% {color: blue ;
+      }
+}
+
+
+/*habilidades*/
+.ari{
+    border-radius: 50%;
+    height: 180px;
+    width: 160px;
+    background-size: cover;
+    border: 2px solid white;
+   
+}
+.card-title{color: blue;
+font-size: 25px;}
+.card-text{color: black;
+font-size: 20px;}
+.card{
+    height: 390px;
+    display: inline-block;
+    margin: 15px;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    
+
+}
+.cartas{
+    display: flex;
+    margin: 15px;
+}
+
+.textoari{
+    color: gray;
+    
+    cursor: pointer;
+}
+
+.textoari:hover{
+    color: white;
+}
+
+.textoari2{
+   
+    color: gray;
+    cursor: pointer;
+}
+
+.textoari2:hover{
+    color: white;
+}
+
+.textoari3{
+    
+    color: blue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.divariinicio{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color:black;
+    text-align: center;
+    height: 800px;
+}
+
+.logos{text-align: center;}
+
+.html,.css,.sass,.boots,.git,.github,.python{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    cursor: pointer;
+    transition: 1s;
+    animation-name:cambiodecolor;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    margin-right: 0;
+}
+
+@keyframes cambiodecolor {
+    0%{color: transparent;}
+
+    100% {color: white ;
+      
+    }
+  }
+
+.html:hover,.css:hover,.sass:hover,.boots:hover,.git:hover,.github:hover,.python:hover{
+    color: blue;
+    font-size: 60px;
+}
+
+
+.hb:hover{
+    text-shadow: 0px 0px 10px blue;
+    font-size: 20px;
+}
+
+.hb{
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    animation-name:cambiodetamaño;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    font-size: 15px;
+}
+  
+  @keyframes cambiodetamaño {
+    0%{
+        font-size: 0px;}
+    100% {font-size: 15px ;
+      
+    }
+  }
+/*fin hab*/
+
+/*contacto*/
+
+
+.main__contacto {
+    background-color: black;
+    color: white;
+    padding: 0 1.5em;
+  }
+  
+  .contacto {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+  }
+  
+  .titulo-contacto {
+    text-align: center;
+    animation-name: cambiodecolor;
+    animation-duration: 5s;
+    font-size: 40px;
+  }
+  
+  .conteiner {
+    box-shadow: 0 0 15px 0 white;
+    animation-name: cambiosombra;
+    animation-duration: 3s;
+    animation-iteration-count: 150;
+  }
+  
+  @keyframes cambiosombra {
+    20% {
+      box-shadow: 0 0 15px 0 white;
+    }
+    40% {
+      box-shadow: 0 0 15px 0 blue;
+    }
+    60% {
+      box-shadow: 0 0 15px 0 white;
+    }
+    80% {
+      box-shadow: 0 0 15px 0 blue;
+    }
+    100% {
+      box-shadow: 0 0 15px 0 white;
+    }
+  }
+  .conteiner > * {
+    padding: 1em;
+  }
+  
+  .fantasy {
+    color: blue;
+  }
+  
+  .form {
+    background-color: #222222;
+  }
+  
+  .datos {
+    background-color: black;
+  }
+  
+  .form form p {
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .form form .block {
+    grid-column: 1/3;
+  }
+  
+  .form form textarea,
+  .form form input,
+  .form form button {
+    background: none;
+    border: none;
+    border-bottom: 1px solid blue;
+    width: 100%;
+    padding: 0.7em;
+    color: white;
+    outline: 0;
+  }
+  
+  .form form button {
+    background: blue;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .form form button:hover,
+  .form form button:focus {
+    color: white;
+    background-color: blue;
+    transition: background-color 1s ease-out;
+    outline: 0;
+  }
+  
+  .h3contacto {
+    color: blue;
+  }
+  
+  .datos h4,
+  .datos ul li,
+  .datos p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  
+  .datos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .datos ul li {
+    padding: 0.3em;
+  }
+  
+  @media (min-width: 700px) {
+    .main__contacto {
+      padding: 0 4rem;
+      width: 100%;
+    }
+  
+    .conteiner {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      width: 100%;
+    }
+  
+    .conteiner > * {
+      padding: 2em;
+    }
+  }
+
+
+/*fin contacto*/
+
+
+
+
+
+/*fin main*/
+
+
+/*footer*/
+.footer{
+    height: 70px;
+    color: white;
+    background-color:#222222;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;}
+/* fin footer*/
+
+
+/*responsive*/
+@media only screen and (max-width: 600px) {
+.card{display: block;}
+.cartas{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;}
+
+    .jumbotron{background-color: #222222;
+        background-size: cover;
+        background-position: center;
+        height: 1700px;
+        }
+
+        .footer{
+            height: auto;
+            color: white;
+            background-color:#222222;
+            padding: 0;
+            margin: 0;
+            font-size: 15px;
+            margin-top: 2045px;}
+
+}
